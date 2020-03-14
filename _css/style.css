@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/* Config Global */
+body {
+  background-color: #EA5455;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11pt;
+  color: #4A6159;
+}
+p, a, label {
+  opacity: 0.9;
+}
+section.corpo {
+  background-color: #EFF2F7;
+  width: 883.27px;
+  height: 512.16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0.1px 0.5px 27px -10px #658579;
+}
+.i-logo .fa-linux {
+  /* width: 30px;
+  height: 30px; */
+  font-size: 18px;
+}
+/* -------------------------------------------- */
+/* Posicionamento da Session e algumas divs */
+section.corpo img.imagem-tema {
+  width: 400px;
+  height: 230px;
+}
+.imagem-tema-center {
+  margin: 0 21px;
+}
+div.box-conteudo {
+  width: 50vw;
+  height: 100%;
+  background-color: white;
+}
+div.box-conteudo-center {
+  margin: 20px 40px;
+}
+/* -------------------------- */
+/* Card Header */
+div.card-header {
+  width: 100%;
+  font-size: 10pt;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+div.card-header a {
+  color: #2C2C2C;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+div.card-header a h1 {
+  margin-left: 5px;
+}
+/* ------------------ */
+#text-bem-vindo {
+  margin: 22px 0;
+}
+
+.input-div {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid rgb(0,0,0, 0.15);
+  width: 100%;
+  height: 37px;
+}
+.i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0,0,0, 0.4);
+}
+.input-place {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+.input-place h5 {
+  font-family: 'Montserrat', Helvetica, Arial, serif;
+  color: rgba(0,0,0, 0.30);
+  transition: .22s;
+}
+.input {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  outline: none;
+  background: none;
+  /* width: 300px; */
+  width: 50vh;
+  height: 100%;
+  color: rgba(0,0,0, 0.50);
+}
+.focus {
+  border: 1px solid rgba(41, 67, 216, 0.75);
+  box-shadow: 0px 7px 15px -8px rgba(0,0,0, 0.25);
+}
+.focus .input-place h5 {
+  margin-left: 6px;
+}
+.focus .icon-user {
+  color: rgba(41, 67, 216, 0.9);
+}
+.focus .icon-lock {
+  color: rgba(41, 67, 216, 0.9);
+}
+form .btn-entrar {
+  width: 100%;
+  height: 40px;
+  margin: 20px 0;
+  font-size: 11pt;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  background-color: #EA5455;
+  cursor: pointer;
+  outline: none;
+  transition: 0.15s;
+}
+form .btn-entrar:hover {
+  box-shadow: 0px 8px 25px -8px #EA5455;
+}
+/* ------------------ */
+/* Botão para entrar como usuario */
+.box-btn-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px 0;
+}
+.btn-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #7367F0;
+  border-radius: 7px;
+  width: 50px;
+  height: 38px;
+  transition: 0.2s;
+}
+.btn-user:hover {
+  background-color: #F4F3FE;
+  box-shadow: 0.1px 0.5px 7px -2px #ABBCB5;
+}
+.btn-user .fa-user-circle {
+  color: #7C71F1;
+}
+/* ------------------ */
+/* Texto rodapé */
+div.txt-rodape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 33px 0;
+}
+div.txt-rodape span {
+  font-weight: 800;
+  font-size: 11.5pt;
+}
+/* ------------------- */

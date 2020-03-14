@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.icon-user {
+  /* background: url(../_img/user.svg) no-repeat; */
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  opacity: 0.70;
+}
+.icon-lock {
+  /* background: url(../_img/lock.svg) no-repeat; */
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  opacity: 0.70;
+}
+
+/* Icons from https://feathericons.com/ */
+
+
+
+/* ==================================== */

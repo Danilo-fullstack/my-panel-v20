@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./_css/style.css">
+    <link rel="stylesheet" href="./_css/reset.css">
+    <link rel="stylesheet" href="./_css/style-teste.css">
+    <link rel="stylesheet" href="./_css/icons-style.css">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Painel Admin</title>
+  </head>
+  <body>
+    <section class="corpo">
+      <div class="imagem-tema-center"><img src="./_img/login.png" class="imgem-tema"></div>
+      <div class="box-conteudo">
+        <div class="box-conteudo-center">
+          <div class="card-header">
+            <a href="index.html">
+              <div class="i-logo">
+                <i class="fab fa-linux"></i>
+              </div>
+            </a>
+            <a href="index.html"><h1>Web SSH</h1></a>
+          </div>
+          <p id="text-bem-vindo">Bem vindo, faça login na sua conta.</p>
+          <div class="box-formularios-login">
+            <form class="form-login" action="index.html" method="post">
+              <div  class="input-div one">
+                <div class="i">
+                  <!-- <i class="icon-user"></i> -->
+                  <i data-feather="user" class="icon-user"></i>
+                </div>
+                <div class="input-place">
+                  <h5>Usuário</h5>
+                  <input class="input" type="text" title="Preencha este campo.">
+                </div>
+              </div>
+              <div class="input-div two">
+                <div class="i">
+                  <!-- <i class="icon-lock"></i> -->
+                  <i data-feather="lock" class="icon-lock"></i>
+                </div>
+                <div class="input-place">
+                  <h5 class="teste">Senha</h5>
+                  <input class="input" type="password" title="Preencha este campo.">
+                </div>
+              </div>
+              <div><input type="checkbox" name="lembrar" id="lembrar"><label for="lembrar">Lembre-me</label></div>
+              <button type="submit" name="btn" class="btn-entrar">Entrar</button>
+            </form>
+            <div class="box-btn-user">
+              <a href="index.html">
+                <div class="btn-user">
+                  <i class="fas fa-user-circle"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="txt-rodape">
+            <p><span>Web SSH</span> &copy; 2020 Todos os direitos</p>
+            <p>reservados.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>feather.replace()</script>
+    <script type="text/javascript" src="./_js/app.js"></script>
+  </body>
+</html>
