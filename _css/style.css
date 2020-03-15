@@ -92,7 +92,7 @@ div.card-header a h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .input-place h5 {
   font-family: 'Montserrat', Helvetica, Arial, serif;
@@ -116,7 +116,11 @@ div.card-header a h1 {
   box-shadow: 0px 7px 15px -8px rgba(0,0,0, 0.25);
 }
 .focus .input-place h5 {
-  margin-left: 6px;
+  /* margin-left: 6px; */
+  margin-top: -57px;
+  margin-left: -35px;
+  color: rgba(41, 67, 216, 0.6);
+  font-size: 7.7pt;
 }
 .focus .icon-user {
   color: rgba(41, 67, 216, 0.9);
