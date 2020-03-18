@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./_css/reset.css">
     <link rel="stylesheet" href="./_css/style-teste.css">
     <link rel="stylesheet" href="./_css/icons-style.css">
+    <link rel="stylesheet" href="./_css/botao-checkbox.css">
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <title>Painel Admin</title>
@@ -47,7 +48,12 @@
                   <input class="input" type="password" title="Preencha este campo.">
                 </div>
               </div>
-              <div><input type="checkbox" name="lembrar" id="lembrar"><label for="lembrar">Lembre-me</label></div>
+              <!-- <div><input type="checkbox" name="lembrar" id="lembrar"><label for="lembrar">Lembre-me</label></div> -->
+              <label class="container">
+                <p>Lembrar-me</p>
+                <input type="checkbox">
+                <span class="check"></span>
+              </label>
               <button type="submit" name="btn" class="btn-entrar">Entrar</button>
             </form>
             <div class="box-btn-user">
