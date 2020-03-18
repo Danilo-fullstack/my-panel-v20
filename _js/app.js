@@ -2,12 +2,14 @@ const inputs = document.querySelectorAll(".input");
 
 function focusFunc(){
   let parent = this.parentNode.parentNode;
-  parent.classList.add("focus");
+  parent.classList.remove('blur');
+  parent.classList.add('focus');
 }
 function blurFunc(){
   let parent = this.parentNode.parentNode;
   if (this.value == "") {
-    parent.classList.remove('focus');
+    /*parent.classList.remove('focus');*/
+    parent.classList.add('blur');
   }
 }
 
@@ -17,27 +19,23 @@ inputs.forEach(input => {
   input.addEventListener("blur", blurFunc);
 })
 
-// function digitouFunc(){
-//   let parent = this.parentNode.parentNode;
-//   parent.classList.add("digitou");
-// }
-// function naodigitouFunc(){
-//   let parent = this.parentNode.parentNode;
-//   if (this.value == "") {
-//     parent.classList.remove('digitou')
-//   }
-// }
+function one() {
+  var x = document.querySelector(".one .input");
+  var place = document.querySelector(".one");
 
-// function digitouFunc(){
-//   if (inputs !== "") {
-//     parent.classList.add("digitou");
-//   }else if (inputs == "") {
-//     parent.classList.remove("digitou");
-//   }
-//     // alert("Funcionou");
-// }
+  if(x.value.length >= 1) {
+  	place.classList.add("digitou");
+  }else if(x.value.length < 1) {
+    place.classList.remove('digitou');
+  }
+}
+function two() {
+  var x = document.querySelector(".two .input");
+  var place = document.querySelector(".two");
 
-// if(document.getElementById("one").value == ""){
-// alert('Por favor, preencha o campo nome');
-// document.getElementById("nome").focus();
-// return false
+  if(x.value.length >= 1) {
+  	place.classList.add("digitou");
+  }else if(x.value.length < 1) {
+    place.classList.remove('digitou');
+  }
+}
