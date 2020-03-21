@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 990px) {
+    .imagem-tema-center {
+        display: none;
+    }
+    section.corpo {
+        width: auto;
+        height: auto;
+    }
+    div.box-conteudo {
+        width: 453px;
+    }
+    .input {
+        width: 96%;
+    }
+}
+@media screen and (max-width: 500px) {
+    section.corpo {
+        background: none;
+    }
+    div.box-conteudo {
+        width: 300px;
+        height: 85%;
+    }
+    .input-div {
+        grid-template-columns: 15% 85%;
+    }
+    .input {
+        width: 96%;
+    }
+    .txt-rodape p {
+        text-align: center;
+    }
+}
